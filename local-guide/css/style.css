@@ -1,0 +1,61 @@
+.body-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: 46pt;
+    background-color: lightblue;
+    margin: 0;
+    padding: 2rem;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(39, 39, 107);
+}
+
+.nav-elements {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    
+}
+
+.nav-elements, a {
+    color: white;
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+.body-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 500px;
+    max-width: 700px;
+}
+
+.body-copy, p {
+    font-size: 13pt;
+}
+
+.socialboard-container, img {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    height: auto;
+}
+
+.townhall-container {
+    display: flex;
+    justify-content: center;
+}
