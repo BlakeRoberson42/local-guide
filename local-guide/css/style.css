@@ -26,7 +26,8 @@ img {
     text-align: center;
     background-color: rgb(255, 255, 255);
     border: 15px solid rgb(164 234 174);
-    border-width: 0px 15px 0px 15px;
+    border-width: 0px 15px 15px 15px;
+    height: auto;
 }
 
 .Act-sect {   
