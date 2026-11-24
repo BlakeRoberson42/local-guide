@@ -1,10 +1,33 @@
+@media(max-width: 393px) {
+    body{
+        padding: 10%;
+    }
+    
+    h1 {
+        display: flex;
+        align-items: center;
+    }
+
+    nav {
+       max-width: 100%;
+    }
+    
+
+    .nav-elements {
+      display: flex;
+      justify-content: space-evenly;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
 
+
+
 body {
     margin: 0;
-    background-image: url(../images/FuquayDowntown.jpg);
+    background-image: url(../images/Fuquay_Varina_Downtown.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -16,18 +39,27 @@ body {
 img {
     max-width: 70%;
     height: auto;
+    border: 8px solid rgb(64, 147, 75);
+}
+
+.external-link {
+    color: green;
+}
+.external-link:hover {
+    color: lightgreen;
 }
 
 .body-copy {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background-color: rgb(255, 255, 255);
-    border: 15px solid rgb(164 234 174);
+    background-color: rgba(255, 255, 255, 90%);
+    border: 15px solid rgb(154, 225, 165);
     border-width: 0px 15px 15px 15px;
     height: auto;
+    font-family: Nunito;
 }
 
 .Act-sect {   
@@ -51,13 +83,14 @@ nav {
     display: flex;
     justify-content: center;
     background-color: rgb(39, 39, 107);
+    
 }
 
 .nav-elements {
     display: flex;
     justify-content: space-between;
     width: 400px;
-    
+    font-family: Nunito;
 }
 
 .nav-elements, a {
@@ -69,6 +102,15 @@ nav {
 
 .body-copy, p {
     font-size: 13pt;
+    font-family: Nunito;
+    
+}
+
+.body-head {
+    font-size: 20pt;
+    font-family: Nunito;
+    font-weight: 800;
+    text-decoration: underline;
 }
 
 
